@@ -1,7 +1,7 @@
 export interface Question {
   id: number;
   question: string;
-  type: "frame" | "dialogue" | "quote" | "soundtrack" | "forca" | "general";
+  type: "frame" | "dialogue" | "quote" | "soundtrack" | "forca" | "general" | "stars";
   points?: number;
   forca?: string;
   genres?: string[];
@@ -11,4 +11,6 @@ export interface Question {
   image?: string;
   video?: string;
   audio?: string;
+  hint?: string;
+  stars?: string[];
 }

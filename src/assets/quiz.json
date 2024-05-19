@@ -1,6 +1,5 @@
 [
   {
-    "id": 1,
     "question": "Qual foi o último filme brasileiro a entrar na pré-lista do Oscar de melhor filme estrangeiro?",
     "answer": "O Ano em Que Meus Pais Saíram de Férias no Oscar de 2008.",
     "points": 1,
@@ -8,58 +7,23 @@
     "duration": 30
   },
   {
-    "id": 2,
-    "question": "Qual o nome da diretora considerada a única mulher diretora do Cinema Novo?",
-    "answer": "Helena Solberg",
+    "question": "A qual filme pertence o seguinte tema?",
+    "type": "soundtrack",
+    "audio": "catch-me.mp3",
+    "video": "catch-me.mp4",
     "points": 1,
-    "type": "general",
-    "duration": 30
+    "answer": "Prenda-me se For Capaz (2002), de Steven Spielberg",
+    "duration": 60
   },
   {
-    "id": 3,
-    "question": "Qual o filme?",
-    "type": "forca",
-    "points": 1,
-    "forca": "Um Morto Muito Louco",
-    "genres": [
-      "aventura",
-      "comédia",
-      "crime"
-    ],
-    "answer": "Um Morto Muito Louco (1989), de Ted Kotcheff",
-    "duration": 30
-  },
-  {
-    "id": 4,
     "question": "Qual o filme?",
     "type": "frame",
-    "image": "women.png",
+    "image": "brilho-eterno.jpeg",
     "points": 1,
-    "answer": "Mulheres à Beira de um Ataque de Nervos (1988), de Pedro Almodóvar",
+    "answer": "Brilho Eterno de uma Mente Sem Lembranças (2004), de Michel Gondry",
     "duration": 30
   },
   {
-    "id": 5,
-    "question": "Qual o filme?",
-    "type": "dialogue",
-    "audio": "mean-girls.mp3",
-    "video": "mean-girls.mp4",
-    "points": 1,
-    "answer": "Meninas Malvadas (2004), de Mark Waters",
-    "duration": 30
-  },
-  {
-    "id": 6,
-    "question": "A qual filme clássico pertence a seguinte citação?",
-    "type": "quote",
-    "quote": "You don't understand! I coulda had class. I coulda been a contender. I could've been somebody, instead of a bum, which is what I am.",
-    "video": "waterfront.mp4",
-    "points": 1,
-    "answer": "Sindicato de Ladrões (1954), de Elia Kazan",
-    "duration": 30
-  },
-  {
-    "id": 7,
     "question": "Qual filme recente usa o clássico Total Eclipse of the Heart em sua trilha sonora?",
     "type": "soundtrack",
     "audio": "total-eclipse.mp3",
@@ -69,7 +33,102 @@
     "duration": 30
   },
   {
-    "id": 8,
+    "question": "Qual o nome da diretora considerada a única mulher diretora do Cinema Novo?",
+    "answer": "Helena Solberg",
+    "points": 1,
+    "type": "general",
+    "duration": 30
+  },
+  {
+    "question": "Qual o filme?",
+    "type": "frame",
+    "image": "wall-e.jpeg",
+    "points": 1,
+    "answer": "Wall-E (2008), de Andrew Stanton",
+    "duration": 60
+  },
+  {
+    "question": "Qual o filme?",
+    "type": "forca",
+    "points": 1,
+    "forca": "Tropas Estelares",
+    "genres": [
+      "sci-fi",
+      "ação",
+      "aventura"
+    ],
+    "hint": "Anos 90",
+    "answer": "Tropas Estelares (1997), de Paul Verhoeven",
+    "duration": 60
+  },
+
+  {
+    "question": "Qual o filme?",
+    "type": "frame",
+    "image": "women.png",
+    "points": 1,
+    "answer": "Mulheres à Beira de um Ataque de Nervos (1988), de Pedro Almodóvar",
+    "duration": 30
+  },
+  {
+    "question": "Qual o filme?",
+    "type": "dialogue",
+    "audio": "mean-girls.mp3",
+    "video": "mean-girls.mp4",
+    "points": 1,
+    "answer": "Meninas Malvadas (2004), de Mark Waters",
+    "duration": 60
+  },
+  {
+    "question": "Qual o filme?",
+    "type": "forca",
+    "points": 1,
+    "forca": "Um Morto Muito Louco",
+    "genres": [
+      "aventura",
+      "comédia",
+      "crime"
+    ],
+    "hint": "Anos 80",
+    "answer": "Um Morto Muito Louco (1989), de Ted Kotcheff",
+    "duration": 60
+  },
+  {
+    "question": "A qual filme clássico pertence a seguinte citação?",
+    "type": "quote",
+    "quote": "You don't understand! I coulda had class. I coulda been a contender. I could've been somebody, instead of a bum, which is what I am.",
+    "video": "waterfront.mp4",
+    "points": 1,
+    "answer": "Sindicato de Ladrões (1954), de Elia Kazan",
+    "duration": 30
+  },
+  {
+    "question": "Qual o filme?",
+    "type": "frame",
+    "image": "requiem.jpeg",
+    "points": 1,
+    "answer": "Requiem para um Sonho (2000), de Darren Aronofsky",
+    "duration": 30
+  },
+  {
+    "question": "Como se chamam essas famosas atrizes da Hollywood clássica?",
+    "type": "stars",
+    "stars": [
+      "gene-tierney.jpeg",
+      "joan-fointane.jpeg",
+      "veronica-lake.jpeg",
+      "rita-hayworth.jpeg"
+    ],
+    "points": 1,
+    "answer": [
+      "Gene Tierney",
+      "Joan Fontaine",
+      "Veronica Lake",
+      "Rita Hayworth"
+    ],
+    "duration": 60
+  },
+  {
     "question": "Qual o filme?",
     "type": "frame",
     "image": "chegada.jpeg",
@@ -78,39 +137,11 @@
     "duration": 30
   },
   {
-    "id": 9,
-    "question": "Qual o filme?",
-    "type": "frame",
-    "image": "brilho-eterno.jpeg",
-    "points": 1,
-    "answer": "Brilho Eterno de uma Mente Sem Lembranças (2004), de Michel Gondry",
-    "duration": 30
-  },
-  {
-    "id": 10,
     "question": "Qual o filme?",
     "type": "frame",
     "image": "M.jpg",
     "points": 1,
     "answer": "M, O Vampiro de Dusseldorf (1931), de Fritz Lang",
-    "duration": 30
-  },
-  {
-    "id": 11,
-    "question": "Qual o filme?",
-    "type": "frame",
-    "image": "wall-e.jpeg",
-    "points": 1,
-    "answer": "Wall-E (2008), de Andrew Stanton",
-    "duration": 30
-  },
-  {
-    "id": 12,
-    "question": "Qual o filme?",
-    "type": "frame",
-    "image": "requiem.jpeg",
-    "points": 1,
-    "answer": "Requiem para um Sonho (2000), de Darren Aronofsky",
     "duration": 30
   }
 ]

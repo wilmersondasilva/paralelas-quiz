@@ -7,33 +7,33 @@ import Question from "./Question";
 function App() {
   const numberOfQuestions = data.length;
   const [quizData, setQuizData] = useState(data);
-  const [currentQuestion, setCurrentQuestion] = useState(0);
+  const [currentQuestion, setCurrentQuestion] = useState(12);
   const [isAnswerTime, setIsAnswerTime] = useState(false);
   const [counter, setCounter] = useState(quizData[currentQuestion].duration);
 
-  useEffect(() => {
-    if (counter > 0) {
-      const timer = setInterval(
-        () => setCounter((counter) => counter - 1),
-        1000
-      );
+  // useEffect(() => {
+  //   if (counter > 0) {
+  //     const timer = setInterval(
+  //       () => setCounter((counter) => counter - 1),
+  //       1000
+  //     );
 
-      return () => clearInterval(timer);
-    } else if (counter === 0) {
-      if (currentQuestion === numberOfQuestions - 1) {
-        setIsAnswerTime(true);
-      } else {
-        setCurrentQuestion(currentQuestion + 1);
-        setCounter(quizData[currentQuestion].duration);
-      }
-    }
-  }, [counter, quizData, currentQuestion, numberOfQuestions]);
+  //     return () => clearInterval(timer);
+  //   } else if (counter === 0) {
+  //     if (currentQuestion === numberOfQuestions - 1) {
+  //       setIsAnswerTime(true);
+  //     } else {
+  //       setCurrentQuestion(currentQuestion + 1);
+  //       setCounter(quizData[currentQuestion + 1].duration);
+  //     }
+  //   }
+  // }, [counter, quizData, currentQuestion, numberOfQuestions]);
 
   return (
     <div className="w-screen flex justify-center">
       {isAnswerTime ? <p>Answer time</p> : (
         <>
-          <Question question={quizData[currentQuestion] as QuestionInterface} counter={counter}/>
+          <Question question={quizData[currentQuestion] as QuestionInterface} index={currentQuestion + 1} counter={counter}/>
         </>
       )}
     </div>
