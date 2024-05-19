@@ -17,6 +17,7 @@ const Question: React.FC<QuestionProps> = ({ question, counter, index }) => {
   const isForca = type === "forca";
   const isGeneral = type === "general";
   const isStars = type === "stars";
+  const isList = type === "list";
 
   useEffect(() => {
     if (isSoundtrack || isDialogue) {
@@ -33,7 +34,7 @@ const Question: React.FC<QuestionProps> = ({ question, counter, index }) => {
           </h2>
           <h1 className="text-7xl mt-2">{question.question}</h1>
         </div>
-        <div className="rounded-2xl flex items-center justify-center bg-cyan-700 min-w-40 h-40">
+        <div className="rounded-2xl flex items-center justify-center bg-cyan-700 min-w-44 h-44">
           <span className="text-8xl">{counter}</span>
         </div>
       </div>
@@ -98,10 +99,19 @@ const Question: React.FC<QuestionProps> = ({ question, counter, index }) => {
             ))}
           </div>
         )}
+
+        {/* {isList && (
+          <div className="flex flex-col gap-2 justify-between items-center h-full">
+            <ul className="">
+              {question.answer?.map((item) => (
+                <li key={item}>
+                  <p className="text-center mt-4 text-3xl">{item}</p>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )} */}
       </div>
-      {/* {audioUrl && <audio src={audioUrl} controls className="mb-4" />}
-      {videoUrl && <video src={videoUrl} controls className="mb-4" />}
-     */}
     </div>
   );
 };
