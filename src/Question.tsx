@@ -40,9 +40,11 @@ const Question: React.FC<QuestionProps> = ({ question, counter, index }) => {
       </div>
       <div className="w-full h-full mt-12">
         {isQuote && (
-          <blockquote className="text-5xl italic text-[#c0f1ff] border-l-4 border-[#c0f1ff] pl-6 py-4">
-            "{question.quote}"
-          </blockquote>
+          <div>
+            <blockquote className="text-5xl italic text-[#c0f1ff] border-l-4 border-[#c0f1ff] pl-6 py-4">
+              "{question.quote}"
+            </blockquote>
+          </div>
         )}
 
         {isFrame && (

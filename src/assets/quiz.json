@@ -73,8 +73,8 @@
   {
     "question": "Essa música toca nos créditos de abertura de qual filme dos anos 2010?",
     "type": "soundtrack",
-    "audio": "Drive.mp3",
-    "video": "Drive.mp4",
+    "audio": "drive.mp3",
+    "video": "drive.mp4",
     "points": 1,
     "answer": "Drive (2011), de Nicolas Winding Refn",
     "duration": 60
