@@ -1,5 +1,5 @@
 import { useEffect, useState, KeyboardEvent } from "react";
-import data from "./assets/quiz.json";
+import data from "./assets/quiz1.json";
 import "./App.css";
 import { Question as QuestionInterface } from "./types";
 import Question from "./Question";

@@ -9,8 +9,8 @@
   {
     "question": "A qual filme pertence o seguinte tema?",
     "type": "soundtrack",
-    "audio": "catch-me.mp3",
-    "video": "catch-me.mp4",
+    "audio": "quiz1/catch-me.mp3",
+    "video": "quiz1/catch-me.mp4",
     "points": 1,
     "answer": "Prenda-me se For Capaz (2002), de Steven Spielberg",
     "duration": 60
@@ -18,7 +18,7 @@
   {
     "question": "Qual o filme?",
     "type": "frame",
-    "image": "brilho-eterno.jpeg",
+    "image": "quiz1/brilho-eterno.jpeg",
     "points": 1,
     "answer": "Brilho Eterno de uma Mente Sem Lembranças (2004), de Michel Gondry",
     "duration": 30
@@ -26,8 +26,8 @@
   {
     "question": "Qual o filme?",
     "type": "dialogue",
-    "audio": "mean-girls.mp3",
-    "video": "mean-girls.mp4",
+    "audio": "quiz1/mean-girls.mp3",
+    "video": "quiz1/mean-girls.mp4",
     "points": 1,
     "answer": "Meninas Malvadas (2004), de Mark Waters",
     "duration": 60
@@ -35,8 +35,8 @@
   {
     "question": "Qual filme recente usa o clássico Total Eclipse of the Heart em sua trilha sonora?",
     "type": "soundtrack",
-    "audio": "total-eclipse.mp3",
-    "video": "bottoms.mp4",
+    "audio": "quiz1/total-eclipse.mp3",
+    "video": "quiz1/bottoms.mp4",
     "points": 1,
     "answer": "Clube da Luta para Meninas (2023), de Emma Seligman",
     "duration": 30
@@ -51,7 +51,7 @@
   {
     "question": "Qual o filme?",
     "type": "frame",
-    "image": "wall-e.jpeg",
+    "image": "quiz1/wall-e.jpeg",
     "points": 1,
     "answer": "Wall-E (2008), de Andrew Stanton",
     "duration": 60
@@ -59,8 +59,8 @@
   {
     "question": "Qual o filme?",
     "type": "dialogue",
-    "audio": "eu-te-amo.mp3",
-    "video": "eu-te-amo.mp4",
+    "audio": "quiz1/eu-te-amo.mp3",
+    "video": "quiz1/eu-te-amo.mp4",
     "points": 1,
     "answer": "Eu Te Amo (1981), de Arnaldo Jabor",
     "duration": 70
@@ -82,8 +82,8 @@
   {
     "question": "Qual o filme?",
     "type": "dialogue",
-    "audio": "fly.mp3",
-    "video": "fly.mp4",
+    "audio": "quiz1/fly.mp3",
+    "video": "quiz1/fly.mp4",
     "points": 1,
     "answer": "A Mosca (1986), de David Cronenberg",
     "duration": 60
@@ -91,8 +91,8 @@
   {
     "question": "Essa música toca nos créditos de abertura de qual filme dos anos 2010?",
     "type": "soundtrack",
-    "audio": "drive.mp3",
-    "video": "drive.mp4",
+    "audio": "quiz1/drive.mp3",
+    "video": "quiz1/drive.mp4",
     "points": 1,
     "answer": "Drive (2011), de Nicolas Winding Refn",
     "duration": 60
@@ -100,7 +100,7 @@
   {
     "question": "Qual o filme?",
     "type": "frame",
-    "image": "M.jpg",
+    "image": "quiz1/M.jpg",
     "points": 1,
     "answer": "M, O Vampiro de Dusseldorf (1931), de Fritz Lang",
     "duration": 30
@@ -108,8 +108,8 @@
   {
     "question": "Qual o filme?",
     "type": "dialogue",
-    "audio": "os-rejeitados.mp3",
-    "video": "os-rejeitados.mp4",
+    "audio": "quiz1/os-rejeitados.mp3",
+    "video": "quiz1/os-rejeitados.mp4",
     "points": 1,
     "answer": "Os Rejeitados (2024), de Alexander Payne",
     "duration": 30
@@ -117,7 +117,7 @@
   {
     "question": "Qual o filme?",
     "type": "frame",
-    "image": "women.png",
+    "image": "quiz1/women.png",
     "points": 1,
     "answer": "Mulheres à Beira de um Ataque de Nervos (1988), de Pedro Almodóvar",
     "duration": 30
@@ -125,7 +125,7 @@
   {
     "question": "A qual filme pertence esse cenário?",
     "type": "frame",
-    "image": "poor-things.jpeg",
+    "image": "quiz1/poor-things.jpeg",
     "points": 1,
     "answer": "Pobres Criaturas (1994), de Yorgos Lanthimos",
     "duration": 30
@@ -148,7 +148,7 @@
     "question": "A qual filme clássico pertence a seguinte citação?",
     "type": "quote",
     "quote": "You don't understand! I coulda had class. I coulda been a contender. I could've been somebody, instead of a bum, which is what I am.",
-    "video": "waterfront.mp4",
+    "video": "quiz1/waterfront.mp4",
     "points": 1,
     "answer": "Sindicato de Ladrões (1954), de Elia Kazan",
     "duration": 30
@@ -156,7 +156,7 @@
   {
     "question": "Qual o filme?",
     "type": "frame",
-    "image": "requiem.jpeg",
+    "image": "quiz1/requiem.jpeg",
     "points": 1,
     "answer": "Requiem para um Sonho (2000), de Darren Aronofsky",
     "duration": 30
@@ -182,7 +182,7 @@
   {
     "question": "Qual o filme?",
     "type": "frame",
-    "image": "marriage.jpg",
+    "image": "quiz1/marriage.jpg",
     "points": 1,
     "answer": "História de um Casamento (2019), de Noah Baumbach",
     "duration": 30
