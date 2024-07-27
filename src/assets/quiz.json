@@ -24,6 +24,15 @@
     "duration": 30
   },
   {
+    "question": "Qual o filme?",
+    "type": "dialogue",
+    "audio": "mean-girls.mp3",
+    "video": "mean-girls.mp4",
+    "points": 1,
+    "answer": "Meninas Malvadas (2004), de Mark Waters",
+    "duration": 60
+  },
+  {
     "question": "Qual filme recente usa o clássico Total Eclipse of the Heart em sua trilha sonora?",
     "type": "soundtrack",
     "audio": "total-eclipse.mp3",
@@ -71,6 +80,15 @@
     "duration": 60
   },
   {
+    "question": "Qual o filme?",
+    "type": "dialogue",
+    "audio": "fly.mp3",
+    "video": "fly.mp4",
+    "points": 1,
+    "answer": "A Mosca (1986), de David Cronenberg",
+    "duration": 60
+  },
+  {
     "question": "Essa música toca nos créditos de abertura de qual filme dos anos 2010?",
     "type": "soundtrack",
     "audio": "drive.mp3",
@@ -89,6 +107,15 @@
   },
   {
     "question": "Qual o filme?",
+    "type": "dialogue",
+    "audio": "os-rejeitados.mp3",
+    "video": "os-rejeitados.mp4",
+    "points": 1,
+    "answer": "Os Rejeitados (2024), de Alexander Payne",
+    "duration": 30
+  },
+  {
+    "question": "Qual o filme?",
     "type": "frame",
     "image": "women.png",
     "points": 1,
@@ -96,13 +123,12 @@
     "duration": 30
   },
   {
-    "question": "Qual o filme?",
-    "type": "dialogue",
-    "audio": "mean-girls.mp3",
-    "video": "mean-girls.mp4",
+    "question": "A qual filme pertence esse cenário?",
+    "type": "frame",
+    "image": "poor-things.jpeg",
     "points": 1,
-    "answer": "Meninas Malvadas (2004), de Mark Waters",
-    "duration": 60
+    "answer": "Pobres Criaturas (1994), de Yorgos Lanthimos",
+    "duration": 30
   },
   {
     "question": "Qual o filme?",

@@ -9,7 +9,7 @@ function App() {
   const numberOfQuestions = data.length;
   const [quizData, setQuizData] = useState(data);
   const [currentQuestion, setCurrentQuestion] = useState(0);
-  const [isAnswerTime, setIsAnswerTime] = useState(true);
+  const [isAnswerTime, setIsAnswerTime] = useState(false);
   const [counter, setCounter] = useState(quizData[currentQuestion].duration);
 
   const nextAnswer = () => {

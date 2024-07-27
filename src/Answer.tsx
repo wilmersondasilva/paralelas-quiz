@@ -133,14 +133,14 @@ const Answer: React.FC<AnswerProps> = ({
         )}
 
         {isList && (
-          <div className="flex flex-col gap-2 justify-between items-center h-full">
-            <ul className="">
+          <div className="h-full ml-12">
+            <ol className="list-decimal">
               {question.answer?.map((item) => (
-                <li key={item}>
-                  <p className="text-center mt-4 text-3xl">{item}</p>
+                <li key={item} className="mt-4 text-4xl">
+                  {item}
                 </li>
               ))}
-            </ul>
+            </ol>
           </div>
         )}
       </div>
