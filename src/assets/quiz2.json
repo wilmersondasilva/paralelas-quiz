@@ -1,5 +1,64 @@
 [
   {
+    "question": "A qual filme pertence o seguinte tema?",
+    "type": "soundtrack",
+    "audio": "quiz2/suspiria.opus",
+    "video": "quiz2/suspiria.opus",
+    "points": 1,
+    "answer": "Suspiria (2018), de Luca Guadagnino",
+    "duration": 60
+  },
+  {
+    "question": "Qual o filme?",
+    "type": "frame",
+    "image": "quiz2/civil-war.jpg",
+    "points": 1,
+    "answer": "Civil War (2024), de Alex Garland",
+    "duration": 30
+  },
+  {
+    "question": "Qual o filme brasileiro?",
+    "type": "forca",
+    "points": 1,
+    "forca": "Madame Satã",
+    "genres": ["biografia", "crime", "drama"],
+    "answer": "Madame Satã (2002), de Karim Aïnouz",
+    "duration": 60
+  },
+  {
+    "question": "Qual o filme?",
+    "type": "soundtrack",
+    "audio": "quiz2/rivais.mp3",
+    "video": "quiz2/rivais.mp4",
+    "points": 1,
+    "answer": "Rivais (2024), de Luca Guadagnino",
+    "duration": 60
+  },
+  {
+    "question": "A que diretor pertence essa filmografia?",
+    "type": "filmography",
+    "movies": [
+      "quiz2/conta-comigo.jpg",
+      "quiz2/harry-sally.jpg",
+      "quiz2/misery.jpg",
+      "quiz2/princesa-prometida.jpg",
+      "quiz2/few-good-men.jpg"
+    ],
+    "points": 1,
+    "answer": "Rob Reiner",
+    "answer_image": "quiz2/rob-reiner.jpg",
+    "duration": 60
+  },
+  {
+    "question": "Essa música é tema de qual filme?",
+    "type": "soundtrack",
+    "audio": "quiz2/rosemary.opus",
+    "video": "quiz2/rosemary.opus",
+    "points": 1,
+    "answer": "Bebê de Rosemary (1968), de Roman Polanski",
+    "duration": 60
+  },
+  {
     "question": "A qual filme clássico pertence o seguinte diálogo?",
     "type": "quote",
     "quote": "- Você veio por mim?\n - Tenho caminhado por muito tempo ao seu lado\n - Eu percebi\n - Você está pronto?\n - Meu corpo está pronto, mas eu não.",
@@ -8,11 +67,35 @@
     "duration": 45
   },
   {
+    "question": "Qual o filme?",
+    "type": "frame",
+    "image": "quiz2/naufrago.webp",
+    "points": 1,
+    "answer": "Náufrago (2000), de Robert Zemeckis",
+    "duration": 30
+  },
+  {
     "question": "Quais filmes compõem a Trilogia da Paranoia de Alan J. Pakula? (1 ponto para cada filme)",
     "answer": "Klute - O Passado Condena (1971), A Trama (1974), Todos os Homens do Presidente (1976)",
     "points": 1,
     "type": "general",
     "duration": 60
+  },
+  {
+    "question": "Qual o filme?",
+    "type": "frame",
+    "image": "quiz2/dr-jivago.jpg",
+    "points": 1,
+    "answer": "Doutor Jivago (1965), de David Lean",
+    "duration": 30
+  },
+  {
+    "question": "Qual o filme?",
+    "type": "frame",
+    "image": "quiz2/vida-invisivel.jpg",
+    "points": 1,
+    "answer": "Vida Invisível (2019), de Karim Aïnouz",
+    "duration": 30
   },
   {
     "question": "Como se chamam esses famosos atores da Hollywood clássica?",
@@ -33,35 +116,11 @@
     "duration": 60
   },
   {
-    "question": "A que diretor pertence essa filmografia?",
-    "type": "filmography",
-    "movies": [
-      "quiz2/conta-comigo.jpg",
-      "quiz2/harry-sally.jpg",
-      "quiz2/misery.jpg",
-      "quiz2/princesa-prometida.jpg",
-      "quiz2/few-good-men.jpg"
-    ],
-    "points": 1,
-    "answer": "Rob Reiner",
-    "answer_image": "quiz2/rob-reiner.jpg",
-    "duration": 60
-  },
-  {
     "question": "Qual a primeira mulher negra a dirigir um longa-metragem no Brasil?",
     "answer": "Adélia Sampaio com Amor Maldito (1984)",
     "points": 1,
     "type": "general",
     "duration": 30
-  },
-  {
-    "question": "A qual filme pertence o seguinte tema?",
-    "type": "soundtrack",
-    "audio": "quiz2/suspiria.opus",
-    "video": "quiz2/suspiria.opus",
-    "points": 1,
-    "answer": "Suspiria (2018), de Luca Guadagnino",
-    "duration": 60
   },
   {
     "question": "A qual filme pertence o seguinte tema?",
@@ -100,23 +159,6 @@
   },
   {
     "question": "Qual o filme?",
-    "type": "frame",
-    "image": "quiz2/civil-war.jpg",
-    "points": 1,
-    "answer": "Civil War (2024), de Alex Garland",
-    "duration": 30
-  },
-  {
-    "question": "Qual o filme brasileiro?",
-    "type": "forca",
-    "points": 1,
-    "forca": "Madame Satã",
-    "genres": ["biografia", "crime", "drama"],
-    "answer": "Madame Satã (2002), de Karim Aïnouz",
-    "duration": 60
-  },
-  {
-    "question": "Qual o filme?",
     "type": "forca",
     "points": 1,
     "forca": "Intriga Internacional",
@@ -127,52 +169,10 @@
   },
   {
     "question": "Qual o filme?",
-    "type": "soundtrack",
-    "audio": "quiz2/rivais.mp3",
-    "video": "quiz2/rivais.mp4",
-    "points": 1,
-    "answer": "Rivais (2024), de Luca Guadagnino",
-    "duration": 60
-  },
-  {
-    "question": "Essa música é tema de qual filme?",
-    "type": "soundtrack",
-    "audio": "quiz2/rosemary.opus",
-    "video": "quiz2/rosemary.opus",
-    "points": 1,
-    "answer": "Bebê de Rosemary (1968), de Roman Polanski",
-    "duration": 60
-  },
-  {
-    "question": "Qual o filme?",
     "type": "frame",
     "image": "quiz2/mississippi-burning.jpg",
     "points": 1,
     "answer": "Mississipi em Chamas (1988), de Alan Parker",
-    "duration": 30
-  },
-  {
-    "question": "Qual o filme?",
-    "type": "frame",
-    "image": "quiz2/dr-jivago.jpg",
-    "points": 1,
-    "answer": "Doutor Jivago (1965), de David Lean",
-    "duration": 30
-  },
-  {
-    "question": "Qual o filme?",
-    "type": "frame",
-    "image": "quiz2/vida-invisivel.jpg",
-    "points": 1,
-    "answer": "Vida Invisível (2019), de Karim Aïnouz",
-    "duration": 30
-  },
-  {
-    "question": "Qual o filme?",
-    "type": "frame",
-    "image": "quiz2/naufrago.webp",
-    "points": 1,
-    "answer": "Náufrago (2000), de Robert Zemeckis",
     "duration": 30
   }
 ]
