@@ -1,7 +1,55 @@
 [
   {
-    "question": "Qual foi o último filme brasileiro a entrar na pré-lista do Oscar de melhor filme estrangeiro?",
-    "answer": "O Ano em Que Meus Pais Saíram de Férias no Oscar de 2008.",
+    "question": "A qual filme clássico pertence o seguinte diálogo?",
+    "type": "quote",
+    "quote": "- Você veio por mim?\n - Tenho caminhado por muito tempo ao seu lado\n - Eu percebi\n - Você está pronto?\n - Meu corpo está pronto, mas eu não.",
+    "points": 1,
+    "answer": "O Sétimo Selo (1957), de Ingmar Bergman",
+    "duration": 45
+  },
+  {
+    "question": "Quais filmes compõem a Trilogia da Paranoia de Alan J. Pakula? (1 ponto para cada filme)",
+    "answer": "Klute - O Passado Condena (1971), A Trama (1974), Todos os Homens do Presidente (1976)",
+    "points": 1,
+    "type": "general",
+    "duration": 60
+  },
+  {
+    "question": "Como se chamam esses famosos atores da Hollywood clássica?",
+    "type": "stars",
+    "stars": [
+      "quiz2/william-holden.jpg",
+      "quiz2/edward-robinson.jpg",
+      "quiz2/lee-marvin.jpg",
+      "quiz2/charles-laughton.jpg"
+    ],
+    "points": 1,
+    "answer": [
+      "William Holden",
+      "Edward G. Robinson",
+      "Lee Marvin",
+      "Charles Laughton"
+    ],
+    "duration": 60
+  },
+  {
+    "question": "A que diretor pertence essa filmografia?",
+    "type": "filmography",
+    "movies": [
+      "quiz2/conta-comigo.jpg",
+      "quiz2/harry-sally.jpg",
+      "quiz2/misery.jpg",
+      "quiz2/princesa-prometida.jpg",
+      "quiz2/few-good-men.jpg"
+    ],
+    "points": 1,
+    "answer": "Rob Reiner",
+    "answer_image": "quiz2/rob-reiner.jpg",
+    "duration": 60
+  },
+  {
+    "question": "Qual a primeira mulher negra a dirigir um longa-metragem no Brasil?",
+    "answer": "Adélia Sampaio com Amor Maldito (1984)",
     "points": 1,
     "type": "general",
     "duration": 30
@@ -9,198 +57,122 @@
   {
     "question": "A qual filme pertence o seguinte tema?",
     "type": "soundtrack",
-    "audio": "quiz1/catch-me.mp3",
-    "video": "quiz1/catch-me.mp4",
+    "audio": "quiz2/suspiria.opus",
+    "video": "quiz2/suspiria.opus",
     "points": 1,
-    "answer": "Prenda-me se For Capaz (2002), de Steven Spielberg",
+    "answer": "Suspiria (2018), de Luca Guadagnino",
     "duration": 60
   },
   {
-    "question": "Qual o filme?",
-    "type": "frame",
-    "image": "quiz1/brilho-eterno.jpeg",
-    "points": 1,
-    "answer": "Brilho Eterno de uma Mente Sem Lembranças (2004), de Michel Gondry",
-    "duration": 30
-  },
-  {
-    "question": "Qual o filme?",
-    "type": "dialogue",
-    "audio": "quiz1/mean-girls.mp3",
-    "video": "quiz1/mean-girls.mp4",
-    "points": 1,
-    "answer": "Meninas Malvadas (2004), de Mark Waters",
-    "duration": 60
-  },
-  {
-    "question": "Qual filme recente usa o clássico Total Eclipse of the Heart em sua trilha sonora?",
+    "question": "A qual filme pertence o seguinte tema?",
     "type": "soundtrack",
-    "audio": "quiz1/total-eclipse.mp3",
-    "video": "quiz1/bottoms.mp4",
+    "audio": "quiz2/robocop.mp3",
+    "video": "quiz2/robocop.mp4",
     "points": 1,
-    "answer": "Clube da Luta para Meninas (2023), de Emma Seligman",
+    "answer": "Robocop (1987), de Paul Verhoeven",
+    "duration": 60
+  },
+  {
+    "question": "Qual o filme?",
+    "type": "frame",
+    "image": "quiz2/cinema-paradiso.jpg",
+    "points": 1,
+    "answer": "Cinema Paradiso (1988), de Giuseppe Tornatore",
     "duration": 30
   },
   {
-    "question": "Qual o nome da diretora considerada a única mulher diretora do Cinema Novo?",
-    "answer": "Helena Solberg",
+    "question": "Qual o filme?",
+    "type": "dialogue",
+    "audio": "quiz2/viajo-porque-preciso.mp3",
+    "video": "quiz2/viajo-porque-preciso.mp4",
     "points": 1,
-    "type": "general",
+    "answer": "Viajo Porque Preciso, Volto Porque Te Amo (2009), de Karim Aïnouz e Marcelo Gomes",
+    "duration": 60
+  },
+  {
+    "question": "A qual filme pertence a seguinte canção?",
+    "type": "soundtrack",
+    "audio": "quiz2/rio-40-graus.mp3",
+    "video": "quiz2/rio-40-graus.mp3",
+    "points": 1,
+    "answer": "Rio, 40 Graus (1955), de Nelson Pereira dos Santos",
     "duration": 30
   },
   {
     "question": "Qual o filme?",
     "type": "frame",
-    "image": "quiz1/wall-e.jpeg",
+    "image": "quiz2/civil-war.jpg",
     "points": 1,
-    "answer": "Wall-E (2008), de Andrew Stanton",
-    "duration": 60
+    "answer": "Civil War (2024), de Alex Garland",
+    "duration": 30
   },
   {
-    "question": "Qual o filme?",
-    "type": "dialogue",
-    "audio": "quiz1/eu-te-amo.mp3",
-    "video": "quiz1/eu-te-amo.mp4",
+    "question": "Qual o filme brasileiro?",
+    "type": "forca",
     "points": 1,
-    "answer": "Eu Te Amo (1981), de Arnaldo Jabor",
-    "duration": 70
+    "forca": "Madame Satã",
+    "genres": ["biografia", "crime", "drama"],
+    "answer": "Madame Satã (2002), de Karim Aïnouz",
+    "duration": 60
   },
   {
     "question": "Qual o filme?",
     "type": "forca",
     "points": 1,
-    "forca": "Tropas Estelares",
-    "genres": [
-      "sci-fi",
-      "ação",
-      "aventura"
-    ],
-    "hint": "Anos 90",
-    "answer": "Tropas Estelares (1997), de Paul Verhoeven",
+    "forca": "Intriga Internacional",
+    "genres": ["thriller", "ação", "mistério", "aventura"],
+    "hint": "Clássico",
+    "answer": "Intriga Internacional (1959), de Alfred Hitchcock",
     "duration": 60
   },
   {
     "question": "Qual o filme?",
-    "type": "dialogue",
-    "audio": "quiz1/fly.mp3",
-    "video": "quiz1/fly.mp4",
-    "points": 1,
-    "answer": "A Mosca (1986), de David Cronenberg",
-    "duration": 60
-  },
-  {
-    "question": "Essa música toca nos créditos de abertura de qual filme dos anos 2010?",
     "type": "soundtrack",
-    "audio": "quiz1/drive.mp3",
-    "video": "quiz1/drive.mp4",
+    "audio": "quiz2/rivais.mp3",
+    "video": "quiz2/rivais.mp4",
     "points": 1,
-    "answer": "Drive (2011), de Nicolas Winding Refn",
+    "answer": "Rivais (2024), de Luca Guadagnino",
+    "duration": 60
+  },
+  {
+    "question": "Essa música é tema de qual filme?",
+    "type": "soundtrack",
+    "audio": "quiz2/rosemary.opus",
+    "video": "quiz2/rosemary.opus",
+    "points": 1,
+    "answer": "Bebê de Rosemary (1968), de Roman Polanski",
     "duration": 60
   },
   {
     "question": "Qual o filme?",
     "type": "frame",
-    "image": "quiz1/M.jpg",
+    "image": "quiz2/mississippi-burning.jpg",
     "points": 1,
-    "answer": "M, O Vampiro de Dusseldorf (1931), de Fritz Lang",
-    "duration": 30
-  },
-  {
-    "question": "Qual o filme?",
-    "type": "dialogue",
-    "audio": "quiz1/os-rejeitados.mp3",
-    "video": "quiz1/os-rejeitados.mp4",
-    "points": 1,
-    "answer": "Os Rejeitados (2024), de Alexander Payne",
+    "answer": "Mississipi em Chamas (1988), de Alan Parker",
     "duration": 30
   },
   {
     "question": "Qual o filme?",
     "type": "frame",
-    "image": "quiz1/women.png",
+    "image": "quiz2/dr-jivago.jpg",
     "points": 1,
-    "answer": "Mulheres à Beira de um Ataque de Nervos (1988), de Pedro Almodóvar",
-    "duration": 30
-  },
-  {
-    "question": "A qual filme pertence esse cenário?",
-    "type": "frame",
-    "image": "quiz1/poor-things.jpeg",
-    "points": 1,
-    "answer": "Pobres Criaturas (1994), de Yorgos Lanthimos",
-    "duration": 30
-  },
-  {
-    "question": "Qual o filme?",
-    "type": "forca",
-    "points": 1,
-    "forca": "Um Morto Muito Louco",
-    "genres": [
-      "aventura",
-      "comédia",
-      "crime"
-    ],
-    "hint": "Anos 80",
-    "answer": "Um Morto Muito Louco (1989), de Ted Kotcheff",
-    "duration": 60
-  },
-  {
-    "question": "A qual filme clássico pertence a seguinte citação?",
-    "type": "quote",
-    "quote": "You don't understand! I coulda had class. I coulda been a contender. I could've been somebody, instead of a bum, which is what I am.",
-    "video": "quiz1/waterfront.mp4",
-    "points": 1,
-    "answer": "Sindicato de Ladrões (1954), de Elia Kazan",
+    "answer": "Doutor Jivago (1965), de David Lean",
     "duration": 30
   },
   {
     "question": "Qual o filme?",
     "type": "frame",
-    "image": "quiz1/requiem.jpeg",
+    "image": "quiz2/vida-invisivel.jpg",
     "points": 1,
-    "answer": "Requiem para um Sonho (2000), de Darren Aronofsky",
+    "answer": "Vida Invisível (2019), de Karim Aïnouz",
     "duration": 30
-  },
-  {
-    "question": "Como se chamam essas famosas atrizes da Hollywood clássica?",
-    "type": "stars",
-    "stars": [
-      "gene-tierney.jpeg",
-      "joan-fointane.jpeg",
-      "veronica-lake.jpeg",
-      "rita-hayworth.jpeg"
-    ],
-    "points": 1,
-    "answer": [
-      "Gene Tierney",
-      "Joan Fontaine",
-      "Veronica Lake",
-      "Rita Hayworth"
-    ],
-    "duration": 60
   },
   {
     "question": "Qual o filme?",
     "type": "frame",
-    "image": "quiz1/marriage.jpg",
+    "image": "quiz2/naufrago.webp",
     "points": 1,
-    "answer": "História de um Casamento (2019), de Noah Baumbach",
+    "answer": "Náufrago (2000), de Robert Zemeckis",
     "duration": 30
-  },
-  {
-    "question": "Quais os 8 filmes de Roger Corman que adaptam obras de Edgar Allan Poe?",
-    "type": "list",
-    "points": 1,
-    "answer": [
-      "'Solar Maldito' adapta 'A Queda da Casa de Usher'",
-      "'O Poço e o Pêndulo'",
-      "'Obsessão Macabra' adapta 'O Enterro Prematuro'",
-      "'Obsessão Macabra' adapta 'Morella', 'O Gato Preto', 'O Barril de Amontillado' e 'A Verdade Sobre o Caso do Sr. Valdemar'",
-      "'O Corvo'",
-      "'O Castelo Assombrado' adapta parcialmente o 'O Palácio Assombrado'",
-      "'A Orgia da Morte' adapta 'A Máscara da Morte Vermelha'",
-      "'O Túmulo Sinistro' adapta 'Ligeia'"
-    ],
-    "duration": 120
   }
 ]

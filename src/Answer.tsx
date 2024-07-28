@@ -24,6 +24,7 @@ const Answer: React.FC<AnswerProps> = ({
   const isGeneral = type === "general";
   const isStars = type === "stars";
   const isList = type === "list";
+  const isFilmography = type === "filmography";
 
   useEffect(() => {
     if (isSoundtrack || isDialogue) {
@@ -66,7 +67,9 @@ const Answer: React.FC<AnswerProps> = ({
               "{question.quote}"
             </blockquote>
 
-            <p className="text-6xl text-[#c0f1ff] mt-10 text-right">{question.answer}</p>
+            <p className="text-6xl text-[#c0f1ff] mt-10 text-right">
+              {question.answer}
+            </p>
           </div>
         )}
 
@@ -126,9 +129,25 @@ const Answer: React.FC<AnswerProps> = ({
                   alt="Star"
                   className=" w-full object-cover rounded-lg"
                 />
-                <p className="text-center mt-4 text-3xl">{question.answer[index]}</p>
+                <p className="text-center mt-4 text-3xl">
+                  {question.answer[index]}
+                </p>
               </div>
             ))}
+          </div>
+        )}
+
+        {isFilmography && (
+          <div className="flex gap-6 justify-between items-center h-full">
+            <div className="w-1/4">
+              <img
+                key={index}
+                src={`/images/${question.answer_image}`}
+                alt="Star"
+                className=" w-full object-cover rounded-lg"
+              />
+              <p className="text-center mt-4 text-3xl">{question.answer}</p>
+            </div>
           </div>
         )}
 

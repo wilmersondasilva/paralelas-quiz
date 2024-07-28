@@ -18,6 +18,7 @@ const Question: React.FC<QuestionProps> = ({ question, counter, index }) => {
   const isGeneral = type === "general";
   const isStars = type === "stars";
   const isList = type === "list";
+  const isFilmography = type === "filmography";
 
   useEffect(() => {
     if (isSoundtrack || isDialogue) {
@@ -41,7 +42,7 @@ const Question: React.FC<QuestionProps> = ({ question, counter, index }) => {
       <div className="w-full h-full mt-12">
         {isQuote && (
           <div>
-            <blockquote className="text-5xl italic text-[#c0f1ff] border-l-4 border-[#c0f1ff] pl-6 py-4">
+            <blockquote className="text-5xl italic text-[#c0f1ff] border-l-4 border-[#c0f1ff] pl-6 py-4 whitespace-pre-wrap">
               "{question.quote}"
             </blockquote>
           </div>
@@ -89,6 +90,22 @@ const Question: React.FC<QuestionProps> = ({ question, counter, index }) => {
         {isStars && (
           <div className="flex gap-6 justify-between items-center h-full">
             {question.stars?.map((image, index) => (
+              <div className="w-1/4">
+                <img
+                  key={index}
+                  src={`/images/${image}`}
+                  alt="Star"
+                  className=" w-full object-cover rounded-lg"
+                />
+                <p className="text-center mt-4 text-3xl">{index + 1}</p>
+              </div>
+            ))}
+          </div>
+        )}
+
+        {isFilmography && (
+          <div className="flex gap-6 justify-between items-center h-full">
+            {question.movies?.map((image, index) => (
               <div className="w-1/4">
                 <img
                   key={index}
