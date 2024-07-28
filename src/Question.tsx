@@ -15,9 +15,7 @@ const Question: React.FC<QuestionProps> = ({ question, counter, index }) => {
   const isQuote = type === "quote";
   const isSoundtrack = type === "soundtrack";
   const isForca = type === "forca";
-  const isGeneral = type === "general";
   const isStars = type === "stars";
-  const isList = type === "list";
   const isFilmography = type === "filmography";
 
   useEffect(() => {

@@ -154,7 +154,7 @@ const Answer: React.FC<AnswerProps> = ({
         {isList && (
           <div className="h-full ml-12">
             <ol className="list-decimal">
-              {question.answer?.map((item) => (
+              {Array(question.answer)?.map((item) => (
                 <li key={item} className="mt-4 text-4xl">
                   {item}
                 </li>

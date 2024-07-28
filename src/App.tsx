@@ -7,7 +7,7 @@ import Answer from "./Answer";
 
 function App() {
   const numberOfQuestions = data.length;
-  const [quizData, setQuizData] = useState(data);
+  const [quizData] = useState(data);
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [isAnswerTime, setIsAnswerTime] = useState(false);
   const [counter, setCounter] = useState(quizData[currentQuestion].duration);
